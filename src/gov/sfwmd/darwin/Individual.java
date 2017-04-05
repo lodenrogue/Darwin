@@ -1,14 +1,14 @@
 package gov.sfwmd.darwin;
 
 public class Individual<T> implements Comparable<Individual<T>> {
-	private float fitness;
+	private Float fitness;
 	private T chromosomes;
 
-	public float getFitness() {
+	public Float getFitness() {
 		return fitness;
 	}
 
-	public void setFitness(float fitness) {
+	public void setFitness(Float fitness) {
 		this.fitness = fitness;
 	}
 
